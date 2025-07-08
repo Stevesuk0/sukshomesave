@@ -14,3 +14,4 @@ usercache.json
 whitelist.json
 session.lock
 versions
+.console_histroy
