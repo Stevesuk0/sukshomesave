@@ -1,45 +1,45 @@
-# Translation config for the AuthMe help, e.g. when /authme help or /authme help register is called
+# AuthMe 帮助信息翻译配置，用于 /authme help 或 /authme help register 等命令
 
 # -------------------------------------------------------
-# List of texts used in the help section
+# 帮助信息中常用文本
 common:
-    header: '==========[ AuthMeReloaded HELP ]=========='
-    optional: 'Optional'
-    hasPermission: 'You have permission'
-    noPermission: 'No permission'
-    default: 'Default'
-    result: 'Result'
+    header: '==========[ AuthMeReloaded 帮助 ]=========='
+    optional: '可选'
+    hasPermission: '已授权'
+    noPermission: '无权限'
+    default: '默认'
+    result: '结果'
     defaultPermissions:
-        notAllowed: 'No permission'
-        opOnly: 'OP''s only'
-        allowed: 'Everyone allowed'
+        notAllowed: '无权限'
+        opOnly: '仅限管理员'
+        allowed: '所有用户可用'
 
 # -------------------------------------------------------
-# Titles of the individual help sections
-# Set the translation text to empty text to disable the section, e.g. to hide alternatives:
+# 各部分标题
+# 若要隐藏某部分，将文本设为空，如：
 #   alternatives: ''
 section:
-    command: 'Command'
-    description: 'Short description'
-    detailedDescription: 'Detailed description'
-    arguments: 'Arguments'
-    permissions: 'Permissions'
-    alternatives: 'Alternatives'
-    children: 'Commands'
+    command: '命令'
+    description: '简介'
+    detailedDescription: '详细信息'
+    arguments: '参数'
+    permissions: '权限'
+    alternatives: '别名'
+    children: '子命令'
 
 # -------------------------------------------------------
-# You can translate the data for all commands using the below pattern.
-# For example to translate /authme reload, create a section "authme.reload", or "login" for /login
-# If the command has arguments, you can use arg1 as below to translate the first argument, and so forth
-# Translations don't need to be complete; any missing section will be taken from the default silently
-# Important: Put main commands like "authme" before their children (e.g. "authme.reload")
+# 使用以下格式为命令添加翻译。
+# 例如 /authme reload 可使用 "authme.reload"，/login 使用 "login"
+# 若命令有参数，可使用 arg1、arg2 等指定其标签与说明。
+# 未翻译的内容将自动使用默认值。
+# 注意：请将主命令（如 "authme"）写在子命令（如 "authme.reload"）之前
 commands:
     authme.register:
-        description: 'Register a player'
-        detailedDescription: 'Register the specified player with the specified password.'
+        description: '注册玩家'
+        detailedDescription: '使用指定密码注册该玩家。'
         arg1:
-            label: 'player'
-            description: 'Player name'
+            label: '玩家'
+            description: '玩家名称'
         arg2:
-            label: 'password'
-            description: 'Password'
+            label: '密码'
+            description: '登录密码'

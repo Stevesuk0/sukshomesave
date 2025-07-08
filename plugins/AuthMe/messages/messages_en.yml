@@ -1,156 +1,157 @@
-# List of global tags:
-# %nl% - Goes to new line.
-# %username% - Replaces the username of the player receiving the message.
-# %displayname% - Replaces the nickname (and colors) of the player receiving the message.
+# 全局标签说明：
+# %nl% - 换行
+# %username% - 替换为接收消息的玩家用户名
+# %displayname% - 替换为接收消息玩家的昵称（含颜色）
 
-# Registration
+# 注册相关
 registration:
-  register_request: '&3Please, register to the server with the command: /register <password> <ConfirmPassword>'
-  command_usage: '&cUsage: /register <password> <ConfirmPassword>'
-  reg_only: '&4Only registered users can join the server! Please visit http://example.com to register yourself!'
-  kicked_admin_registered: 'An admin just registered you; please log in again.'
-  success: '&2Successfully registered!'
-  disabled: '&cIn-game registration is disabled!'
-  name_taken: '&cYou already have registered this username!'
+  register_request: '&3请使用以下指令注册：/register <密码> <确认密码>'
+  command_usage: '&c用法：/register <密码> <确认密码>'
+  reg_only: '&4仅限已注册用户加入服务器！请访问 http://example.com 注册账号。'
+  kicked_admin_registered: '管理员已为你注册，请重新登录。'
+  success: '&2注册成功！'
+  disabled: '&c已禁用游戏内注册功能！'
+  name_taken: '&c该用户名已被注册！'
 
-# Password errors on registration
+# 注册时的密码错误
 password:
-  match_error: '&cPasswords didn''t match, check them again!'
-  name_in_password: '&cYou can''t use your name as password, please choose another one...'
-  unsafe_password: '&cThe chosen password isn''t safe, please choose another one...'
-  forbidden_characters: '&4Your password contains illegal characters. Allowed chars: %valid_chars'
-  wrong_length: '&cYour password is too short or too long! Please try with another one!'
+  match_error: '&c两次输入的密码不一致，请重新检查！'
+  name_in_password: '&c密码不能包含用户名，请选择其他密码。'
+  unsafe_password: '&c密码过于简单，请更换为更安全的密码。'
+  forbidden_characters: '&4密码中包含非法字符。允许的字符：%valid_chars'
+  wrong_length: '&c密码长度不符合要求，请更换！'
 
-# Login
+# 登录相关
 login:
-  command_usage: '&cUsage: /login <password>'
-  wrong_password: '&cWrong password!'
-  success: '&2Successful login!'
-  login_request: '&cPlease, login with the command: /login <password>'
-  timeout_error: '&4Login timeout exceeded, you have been kicked from the server, please try again!'
+  command_usage: '&c用法：/login <密码>'
+  wrong_password: '&c密码错误！'
+  success: '&2登录成功！'
+  login_request: '&c请使用以下指令登录：/login <密码>'
+  timeout_error: '&4登录超时，你已被踢出，请稍后再试！'
 
-# Errors
+# 通用错误提示
 error:
-  unregistered_user: '&cThis user isn''t registered!'
-  denied_command: '&cIn order to use this command you must be authenticated!'
-  denied_chat: '&cIn order to chat you must be authenticated!'
-  not_logged_in: '&cYou''re not logged in!'
-  tempban_max_logins: '&cYou have been temporarily banned for failing to log in too many times.'
-  max_registration: '&cYou have exceeded the maximum number of registrations (%reg_count/%max_acc %reg_names) for your connection!'
-  no_permission: '&4You don''t have the permission to perform this action!'
-  unexpected_error: '&4An unexpected error occurred, please contact an administrator!'
-  kick_for_vip: '&3A VIP player has joined the server when it was full!'
-  logged_in: '&cYou''re already logged in!'
-  kick_unresolved_hostname: '&cAn error occurred: unresolved player hostname!'
+  unregistered_user: '&c该用户尚未注册！'
+  denied_command: '&c你必须先验证身份后才能使用此指令！'
+  denied_chat: '&c你必须先验证身份后才能聊天！'
+  not_logged_in: '&c你尚未登录！'
+  tempban_max_logins: '&c登录失败次数过多，你已被临时封禁。'
+  max_registration: '&c你已达到注册上限（%reg_count/%max_acc %reg_names）！'
+  no_permission: '&4你没有权限执行此操作！'
+  unexpected_error: '&4发生未知错误，请联系管理员！'
+  kick_for_vip: '&3服务器已满，有 VIP 玩家加入，你已被移除。'
+  logged_in: '&c你已登录！'
+  kick_unresolved_hostname: '&c发生错误：玩家主机名无法解析！'
 
-# AntiBot
+# 防机器人功能
 antibot:
-  kick_antibot: 'AntiBot protection mode is enabled! You have to wait some minutes before joining the server.'
-  auto_enabled: '&4[AntiBotService] AntiBot enabled due to the huge number of connections!'
-  auto_disabled: '&2[AntiBotService] AntiBot disabled after %m minutes!'
+  kick_antibot: '已启用防机器人模式，请稍候再试。'
+  auto_enabled: '&4[防机器人系统] 连接过多，已自动开启防护模式！'
+  auto_disabled: '&2[防机器人系统] %m 分钟后防护模式已关闭！'
 
+# 注销账号
 unregister:
-  success: '&cSuccessfully unregistered!'
-  command_usage: '&cUsage: /unregister <password>'
+  success: '&c账号已注销！'
+  command_usage: '&c用法：/unregister <密码>'
 
-# Other messages
+# 其他提示信息
 misc:
-  accounts_owned_self: 'You own %count accounts:'
-  accounts_owned_other: 'The player %name has %count accounts:'
-  account_not_activated: '&cYour account isn''t activated yet, please check your emails!'
-  password_changed: '&2Password changed successfully!'
-  logout: '&2Logged out successfully!'
-  reload: '&2Configuration and database have been reloaded correctly!'
-  usage_change_password: '&cUsage: /changepassword <oldPassword> <newPassword>'
+  accounts_owned_self: '当前服务器注册了 %count 个玩家：'
+  accounts_owned_other: '玩家 %name 加入了服务器。 \n当前服务器注册了 %count 个玩家：'
+  account_not_activated: '&c你的账号尚未激活，请查收激活邮件！'
+  password_changed: '&2密码修改成功！'
+  logout: '&2已成功登出！'
+  reload: '&2配置与数据库已重新加载！'
+  usage_change_password: '&c用法：/changepassword <旧密码> <新密码>'
 
-# Session messages
+# 会话信息
 session:
-  invalid_session: '&cYour IP has been changed and your session data has expired!'
-  valid_session: '&2Logged-in due to Session Reconnection.'
+  invalid_session: '&c你的 IP 发生变化，登录会话已失效！'
+  valid_session: '&2已通过会话自动登录。'
 
-# Error messages when joining
+# 加入服务器时的错误信息
 on_join_validation:
-  name_length: '&4Your username is either too short or too long!'
-  characters_in_name: '&4Your username contains illegal characters. Allowed chars: %valid_chars'
-  country_banned: '&4Your country is banned from this server!'
-  not_owner_error: 'You are not the owner of this account. Please choose another name!'
-  kick_full_server: '&4The server is full, try again later!'
-  same_nick_online: '&4The same username is already playing on the server!'
-  invalid_name_case: 'You should join using username %valid, not %invalid.'
-  same_ip_online: 'A player with the same IP is already in game!'
-  quick_command: 'You used a command too fast! Please, join the server again and wait more before using any command.'
+  name_length: '&4用户名长度不符合要求！'
+  characters_in_name: '&4用户名包含非法字符。允许的字符：%valid_chars'
+  country_banned: '&4你的国家被禁止加入此服务器！'
+  not_owner_error: '你不是此账号的所有者，请更换用户名！'
+  kick_full_server: '&4服务器已满，请稍后重试！'
+  same_nick_online: '&4该用户名已在线，请更换！'
+  invalid_name_case: '请使用正确的用户名 %valid 登录，而非 %invalid。'
+  same_ip_online: '已有同一 IP 的玩家在线！'
+  quick_command: '你执行指令过快！请重新加入服务器并等待片刻再操作。'
 
-# Email
+# 邮箱绑定
 email:
-  usage_email_add: '&cUsage: /email add <email> <confirmEmail>'
-  usage_email_change: '&cUsage: /email change <oldEmail> <newEmail>'
-  new_email_invalid: '&cInvalid new email, try again!'
-  old_email_invalid: '&cInvalid old email, try again!'
-  invalid: '&cInvalid email address, try again!'
-  added: '&2Email address successfully added to your account!'
-  request_confirmation: '&cPlease confirm your email address!'
-  changed: '&2Email address changed correctly!'
-  email_show: '&2Your current email address is: &f%email'
-  incomplete_settings: 'Error: not all required settings are set for sending emails. Please contact an admin.'
-  already_used: '&4The email address is already being used'
-  send_failure: 'The email could not be sent. Please contact an administrator.'
-  no_email_for_account: '&2You currently don''t have email address associated with this account.'
-  add_email_request: '&3Please add your email to your account with the command: /email add <yourEmail> <confirmEmail>'
-  change_password_expired: 'You cannot change your password using this command anymore.'
-  email_cooldown_error: '&cAn email was already sent recently. You must wait %time before you can send a new one.'
-  add_not_allowed: '&cAdding email was not allowed.'
-  change_not_allowed: '&cChanging email was not allowed.'
+  usage_email_add: '&c用法：/email add <邮箱> <确认邮箱>'
+  usage_email_change: '&c用法：/email change <旧邮箱> <新邮箱>'
+  new_email_invalid: '&c新邮箱地址无效，请重试！'
+  old_email_invalid: '&c旧邮箱地址无效，请重试！'
+  invalid: '&c邮箱地址无效，请重试！'
+  added: '&2邮箱已成功绑定到你的账号！'
+  request_confirmation: '&c请确认你的邮箱地址！'
+  changed: '&2邮箱地址更改成功！'
+  email_show: '&2你当前绑定的邮箱为：&f%email'
+  incomplete_settings: '错误：发送邮件所需的设置未配置完整，请联系管理员。'
+  already_used: '&4该邮箱已被使用。'
+  send_failure: '邮件发送失败，请联系管理员。'
+  no_email_for_account: '&2你当前账号未绑定邮箱。'
+  add_email_request: '&3请使用以下指令绑定邮箱：/email add <邮箱> <确认邮箱>'
+  change_password_expired: '该命令已过期，无法通过此方式修改密码。'
+  email_cooldown_error: '&c邮件已发送，请等待 %time 后再尝试发送新邮件。'
+  add_not_allowed: '&c当前不允许绑定邮箱。'
+  change_not_allowed: '&c当前不允许更改邮箱。'
 
-# Password recovery by email
+# 通过邮箱找回密码
 recovery:
-  forgot_password_hint: '&3Forgot your password? Please use the command: /email recovery <yourEmail>'
-  command_usage: '&cUsage: /email recovery <Email>'
-  email_sent: '&2Recovery email sent successfully! Please check your email inbox!'
+  forgot_password_hint: '&3忘记密码？请使用：/email recovery <邮箱>'
+  command_usage: '&c用法：/email recovery <邮箱>'
+  email_sent: '&2找回邮件已发送，请检查收件箱！'
   code:
-    code_sent: 'A recovery code to reset your password has been sent to your email.'
-    incorrect: 'The recovery code is not correct! You have %count tries remaining.'
-    tries_exceeded: 'You have exceeded the maximum number attempts to enter the recovery code. Use "/email recovery [email]" to generate a new one.'
-    correct: 'Recovery code entered correctly!'
-    change_password: 'Please use the command /email setpassword <new password> to change your password immediately.'
+    code_sent: '密码重设验证码已发送至你的邮箱。'
+    incorrect: '验证码错误！你还有 %count 次尝试机会。'
+    tries_exceeded: '输入错误次数过多，请重新执行 "/email recovery [邮箱]" 获取新验证码。'
+    correct: '验证码正确！'
+    change_password: '请立即使用指令 /email setpassword <新密码> 修改密码。'
 
-# Captcha
+# 验证码系统
 captcha:
-  usage_captcha: '&3To log in you have to solve a captcha code, please use the command: /captcha %captcha_code'
-  wrong_captcha: '&cWrong captcha, please type "/captcha %captcha_code" into the chat!'
-  valid_captcha: '&2Captcha code solved correctly!'
-  captcha_for_registration: 'To register you have to solve a captcha first, please use the command: /captcha %captcha_code'
-  register_captcha_valid: '&2Valid captcha! You may now register with /register'
+  usage_captcha: '&3你需要通过验证码验证，请输入：/captcha %captcha_code'
+  wrong_captcha: '&c验证码错误，请输入 "/captcha %captcha_code"！'
+  valid_captcha: '&2验证码验证通过！'
+  captcha_for_registration: '注册前需完成验证码验证，请输入：/captcha %captcha_code'
+  register_captcha_valid: '&2验证码正确！你现在可以使用 /register 注册账号。'
 
-# Verification code
+# 敏感操作验证
 verification:
-  code_required: '&3This command is sensitive and requires an email verification! Check your inbox and follow the email''s instructions.'
-  command_usage: '&cUsage: /verification <code>'
-  incorrect_code: '&cIncorrect code, please type "/verification <code>" into the chat, using the code you received by email'
-  success: '&2Your identity has been verified! You can now execute all commands within the current session!'
-  already_verified: '&2You can already execute every sensitive command within the current session!'
-  code_expired: '&3Your code has expired! Execute another sensitive command to get a new code!'
-  email_needed: '&3To verify your identity you need to link an email address with your account!!'
+  code_required: '&3此命令涉及敏感操作，需进行邮箱验证。请查收邮件并按提示操作。'
+  command_usage: '&c用法：/verification <验证码>'
+  incorrect_code: '&c验证码错误，请输入 "/verification <验证码>"，使用邮件中收到的验证码。'
+  success: '&2身份验证成功！你现在可以执行所有敏感操作。'
+  already_verified: '&2你已完成验证，无需再次验证。'
+  code_expired: '&3验证码已过期！请重新执行敏感操作以获取新验证码。'
+  email_needed: '&3你需要先为账号绑定邮箱才能进行身份验证！'
 
-# Two-factor authentication
+# 二步验证（2FA）
 two_factor:
-  code_created: '&2Your secret code is %code. You can scan it from here %url'
-  confirmation_required: 'Please confirm your code with /2fa confirm <code>'
-  code_required: 'Please submit your two-factor authentication code with /2fa code <code>'
-  already_enabled: 'Two-factor authentication is already enabled for your account!'
-  enable_error_no_code: 'No 2fa key has been generated for you or it has expired. Please run /2fa add'
-  enable_success: 'Successfully enabled two-factor authentication for your account'
-  enable_error_wrong_code: 'Wrong code or code has expired. Please run /2fa add'
-  not_enabled_error: 'Two-factor authentication is not enabled for your account. Run /2fa add'
-  removed_success: 'Successfully removed two-factor auth from your account'
-  invalid_code: 'Invalid code!'
+  code_created: '&2你的密钥为 %code，可通过以下地址扫码：%url'
+  confirmation_required: '请输入 /2fa confirm <验证码> 以完成验证'
+  code_required: '请输入 /2fa code <验证码> 完成验证'
+  already_enabled: '你的账号已启用二步验证！'
+  enable_error_no_code: '未生成或密钥已过期，请执行 /2fa add 重新生成'
+  enable_success: '成功启用二步验证'
+  enable_error_wrong_code: '验证码错误或已过期，请重新执行 /2fa add'
+  not_enabled_error: '你尚未启用二步验证，请执行 /2fa add'
+  removed_success: '已成功关闭二步验证'
+  invalid_code: '无效验证码！'
 
-# Time units
+# 时间单位
 time:
-  second: 'second'
-  seconds: 'seconds'
-  minute: 'minute'
-  minutes: 'minutes'
-  hour: 'hour'
-  hours: 'hours'
-  day: 'day'
-  days: 'days'
+  second: '秒'
+  seconds: '秒'
+  minute: '分钟'
+  minutes: '分钟'
+  hour: '小时'
+  hours: '小时'
+  day: '天'
+  days: '天'

@@ -1,3 +1,8 @@
-Welcome {PLAYER} on {SERVER} server
+欢迎 {PLAYER} 来到 Stevesuk 的小窝！
 
-This server uses AuthMeReloaded protection!
+此服务器使用 AuthMeReloaded 保护。
+
+QQ 群：258517272
+存档备份：https://github.com/Stevesuk0/sukshomesave
+
+开挂自己掰开。搞破坏ban。
