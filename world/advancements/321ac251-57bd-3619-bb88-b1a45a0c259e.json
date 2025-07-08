@@ -925,6 +925,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-07-08 18:16:02 +0800",
       "minecraft:spider": "2025-07-08 16:21:05 +0800",
       "minecraft:zombie": "2025-07-08 16:22:14 +0800"
     },
@@ -1473,6 +1474,24 @@
   "minecraft:recipes/misc/fire_charge": {
     "criteria": {
       "has_blaze_powder": "2025-07-08 17:46:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_horse_armor": "2025-07-08 18:20:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_horse_armor": "2025-07-08 18:20:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-07-08 18:16:03 +0800"
     },
     "done": true
   },

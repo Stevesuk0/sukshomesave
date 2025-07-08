@@ -1,7 +1,6 @@
 cache
 libraries
 logs
-plugins
 bukkit.yml
 commands.yml
 eula.txt
@@ -10,8 +9,10 @@ ops.json
 permissions.yml
 server.jar
 spigot.yml
-usercache.json
 whitelist.json
 session.lock
 versions
 .console_histroy
+
+authme.*
+plugins/authme/playerdata
