@@ -13,9 +13,11 @@ whitelist.json
 session.lock
 versions
 .console_histroy
-
 authme.*
 plugins/authme/playerdata
 plugins/CustomSprays
 
 wepif.yml
+
+
+*.dat_old
