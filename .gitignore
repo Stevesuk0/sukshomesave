@@ -16,5 +16,6 @@ versions
 
 authme.*
 plugins/authme/playerdata
+plugins/CustomSprays
 
 wepif.yml

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1752026937327
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1752024833315
+  login: 1752024835411
+money: '0'
+last-account-name: Dick_Girl
+logoutlocation:
+  world: b55b5406-9fb6-493d-89db-e355b0f5084e
+  world-name: world
+  x: -161.07144685270845
+  y: 97.10376885202375
+  z: -101.36144986285039
+  yaw: 143.54713439941406
+  pitch: 50.849971771240234
+lastlocation:
+  world: b55b5406-9fb6-493d-89db-e355b0f5084e
+  world-name: world
+  x: -156.95087906396677
+  y: 63.0
+  z: -94.37477122811222
+  yaw: -120.15020751953125
+  pitch: 13.64999771118164
+homes:
+  home:
+    world: b55b5406-9fb6-493d-89db-e355b0f5084e
+    world-name: world
+    x: -169.41653079198323
+    y: 63.0
+    z: -93.50403488246434
+    yaw: -178.351806640625
+    pitch: 90.0
