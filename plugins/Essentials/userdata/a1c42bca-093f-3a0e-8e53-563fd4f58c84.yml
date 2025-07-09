@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1752032662762
-  login: 1752032664017
+  logout: 1752035409461
+  login: 1752034532671
 money: '0'
 lastlocation:
   world: b55b5406-9fb6-493d-89db-e355b0f5084e
@@ -31,10 +31,10 @@ logoutlocation:
   world: b55b5406-9fb6-493d-89db-e355b0f5084e
   world-name: world
   x: -156.5
-  y: 63.5
-  z: -94.5
-  yaw: -161.79722595214844
-  pitch: -3.7091948986053467
+  y: 63.55
+  z: -95.5
+  yaw: -135.39862060546875
+  pitch: -33.7177619934082
 last-account-name: Steve_Official
 homes:
   home:

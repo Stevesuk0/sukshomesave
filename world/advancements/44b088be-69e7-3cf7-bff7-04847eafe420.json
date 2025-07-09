@@ -3224,6 +3224,42 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2025-07-09 11:56:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-07-09 11:57:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-07-09 11:57:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-07-09 11:57:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2025-07-09 11:59:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-07-09 11:59:08 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/acacia_button": {
     "criteria": {
       "has_planks": "2025-07-09 11:59:10 +0800"
@@ -3236,21 +3272,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/fishy_business": {
-    "criteria": {
-      "cod": "2025-07-09 11:56:47 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/acacia_sign": {
     "criteria": {
       "has_planks": "2025-07-09 11:59:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod_from_smoking": {
-    "criteria": {
-      "has_cod": "2025-07-09 11:57:00 +0800"
     },
     "done": true
   },
@@ -3272,33 +3296,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
-    "criteria": {
-      "has_cod": "2025-07-09 11:57:00 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/acacia_wood": {
-    "criteria": {
-      "has_log": "2025-07-09 11:59:08 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_deepslate": {
-    "criteria": {
-      "has_cobbled_deepslate_slab": "2025-07-09 12:04:26 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2025-07-09 11:59:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod": {
-    "criteria": {
-      "has_cod": "2025-07-09 11:57:00 +0800"
     },
     "done": true
   },
@@ -3314,9 +3314,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/acacia_planks": {
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
     "criteria": {
-      "has_log": "2025-07-09 11:59:08 +0800"
+      "has_cobbled_deepslate_slab": "2025-07-09 12:04:26 +0800"
     },
     "done": true
   },

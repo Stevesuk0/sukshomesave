@@ -2316,18 +2316,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_chest_boat": {
-    "criteria": {
-      "has_boat": "2025-07-09 12:02:15 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_chest_raft": {
-    "criteria": {
-      "has_boat": "2025-07-09 12:02:15 +0800"
-    },
-    "done": true
-  },
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "salmon": "2025-07-09 11:53:21 +0800"
@@ -2337,6 +2325,42 @@
   "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
       "has_cod": "2025-07-09 11:55:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-07-09 11:55:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-07-09 11:55:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-07-09 11:57:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2025-07-09 11:59:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-07-09 12:02:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-07-09 12:02:15 +0800"
     },
     "done": true
   },
@@ -2352,12 +2376,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2025-07-09 11:57:09 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/jungle_chest_boat": {
     "criteria": {
       "has_boat": "2025-07-09 12:02:15 +0800"
@@ -2370,21 +2388,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
-    "criteria": {
-      "has_cod": "2025-07-09 11:55:01 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2025-07-09 12:02:15 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod": {
-    "criteria": {
-      "has_cod": "2025-07-09 11:55:01 +0800"
     },
     "done": true
   },
@@ -2403,12 +2409,6 @@
   "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
       "has_boat": "2025-07-09 12:02:15 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/conduit": {
-    "criteria": {
-      "has_nautilus_shell": "2025-07-09 11:59:02 +0800"
     },
     "done": true
   },

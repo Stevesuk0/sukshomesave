@@ -833,6 +833,7 @@
       "cooked_porkchop": "2025-07-08 13:21:39 +0800",
       "apple": "2025-07-08 13:33:03 +0800",
       "bread": "2025-07-08 18:00:44 +0800",
+      "golden_apple": "2025-07-09 12:08:16 +0800",
       "cooked_chicken": "2025-07-08 13:58:20 +0800",
       "rotten_flesh": "2025-07-08 15:19:17 +0800",
       "enchanted_golden_apple": "2025-07-08 18:50:24 +0800",
@@ -3052,12 +3053,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/leaf_litter": {
-    "criteria": {
-      "has_leaves": "2025-07-09 12:00:01 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/bowl": {
     "criteria": {
       "has_brown_mushroom": "2025-07-09 11:50:53 +0800"
@@ -3067,6 +3062,18 @@
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_brown_mushroom": "2025-07-09 11:50:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leaf_litter": {
+    "criteria": {
+      "has_leaves": "2025-07-09 12:00:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2025-07-09 12:05:56 +0800"
     },
     "done": true
   },
